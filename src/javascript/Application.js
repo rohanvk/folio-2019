@@ -200,7 +200,7 @@ export default class Application
 
             // Renderer
             this.passes.composer.render()
-            // this.renderer.domElement.style.background = 'black'
+            //this.renderer.domElement.style.background = 'black'
             // this.renderer.render(this.scene, this.camera.instance)
         })
 
