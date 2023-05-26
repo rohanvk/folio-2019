@@ -172,7 +172,7 @@ html
     padding: 20px 30px;
     border: 2px solid #ffffff;
     border-radius: 8px;
-    background: linear-gradient(#fdb572ab, #fdb5721a);
+    background: linear-gradient(#7b72fd1a, #1b197d);
 }
 
 .threejs-journey .message .tip
@@ -246,13 +246,13 @@ html
 .threejs-journey .message .answer.is-no .background
 {
     border: 2px solid #ffffff;
-    background: linear-gradient(#fdb5721a, #fdb572ab);
+    background: linear-gradient(#7b72fd1a, #1b197d);
     color: #ffffff;
 }
 
 .threejs-journey .message .answer.is-yes
 {
-    color: #feae69;
+    color: #1b197d;
 }
 
 .threejs-journey .message .answer.is-yes .background
