@@ -117,8 +117,8 @@ export default class IntroSection
         }
 
         this.otherInstructions = {}
-        this.otherInstructions.x = 16
-        this.otherInstructions.y = - 2
+        this.otherInstructions.x = 10
+        this.otherInstructions.y = - 5
 
         // Container
         this.otherInstructions.container = new THREE.Object3D()

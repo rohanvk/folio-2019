@@ -486,7 +486,7 @@ export default class
         // Playground
         this.sections.playground = new PlaygroundSection({
             ...options,
-            x: - 38,
+            x: - 58,
             y: - 34
             // x: - 15,
             // y: - 4
