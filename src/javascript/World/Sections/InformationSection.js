@@ -40,8 +40,8 @@ export default class InformationSection
     {
         this.baguettes = {}
 
-        this.baguettes.x = - 4
-        this.baguettes.y = 6
+        this.baguettes.x = - 400
+        this.baguettes.y = 600
 
         this.baguettes.a = this.objects.add({
             base: this.resources.items.informationBaguetteBase.scene,
