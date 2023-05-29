@@ -215,7 +215,7 @@ export default class ProjectsSection
                     { type: 'cssda', x: 7.2, y: 4.15 }
                 ]
             },
-            {
+            /*{
                 name: 'Zenly',
                 imageSources:
                 [
@@ -242,7 +242,7 @@ export default class ProjectsSection
                     { type: 'cssda', x: 7.2, y: 4.15 }
                 ]
             },
-            {
+            /*{
                 name: 'priorHoldings',
                 imageSources:
                 [
@@ -296,7 +296,7 @@ export default class ProjectsSection
                     { type: 'cssda', x: 7.2, y: 4.15 }
                 ]
             },
-            {
+            /*{
                 name: 'citrixRedbull',
                 imageSources:
                 [
@@ -372,7 +372,7 @@ export default class ProjectsSection
                     }
                 },
                 distinctions: []
-            }
+            }*/
         ]
     }
 

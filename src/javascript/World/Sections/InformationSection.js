@@ -150,9 +150,9 @@ export default class InformationSection
     {
         // Set up
         this.activities = {}
-        this.activities.x = this.x + 0
-        this.activities.y = this.y - 10
-        this.activities.multiplier = 5.5
+        this.activities.x = this.x + 5
+        this.activities.y = this.y - 11.5
+        this.activities.multiplier = 8.5
 
         // Geometry
         this.activities.geometry = new THREE.PlaneBufferGeometry(2 * this.activities.multiplier, 1 * this.activities.multiplier, 1, 1)

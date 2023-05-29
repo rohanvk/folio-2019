@@ -188,7 +188,7 @@ export default class Project
 */
         // Area
         this.floor.area = this.areas.add({
-            position: new THREE.Vector2(this.x + this.link.x, this.y + this.floor.y + this.link.y),
+            position: new THREE.Vector2(this.x + this.link.x + 250, this.y + this.floor.y + this.link.y - 250),
             halfExtents: new THREE.Vector2(this.link.halfExtents.x, this.link.halfExtents.y)
         })
         this.floor.area.on('interact', () =>
