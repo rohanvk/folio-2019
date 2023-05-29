@@ -76,7 +76,7 @@ export default class InformationSection
         this.links.halfExtents = {}
         this.links.halfExtents.x = 1
         this.links.halfExtents.y = 1
-        this.links.distanceBetween = 2.4
+        this.links.distanceBetween = 3
         this.links.labelWidth = this.links.halfExtents.x * 2 + 1
         this.links.labelGeometry = new THREE.PlaneBufferGeometry(this.links.labelWidth, this.links.labelWidth * 0.25, 1, 1)
         this.links.labelOffset = - 1.6
@@ -97,7 +97,7 @@ export default class InformationSection
                 labelTexture: this.resources.items.informationContactGithubLabelTexture
             },
             {
-                href: 'https://assets.survivalinternational.org/documents/1683/how-will-we-survive.pdf/',
+                href: 'https://assets.survivalinternational.org/documents/1683/how-will-we-survive.pdf',
                 labelTexture: this.resources.items.informationContactLinkedinLabelTexture
             },
             {
