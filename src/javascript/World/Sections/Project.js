@@ -139,7 +139,7 @@ export default class Project
         this.floor.mesh.matrixAutoUpdate = false
         this.floor.container.add(this.floor.mesh)
 
-        // Distinctions
+        /*// Distinctions
         if(this.distinctions)
         {
             for(const _distinction of this.distinctions)
@@ -185,7 +185,7 @@ export default class Project
                 })
             }
         }
-
+*/
         // Area
         this.floor.area = this.areas.add({
             position: new THREE.Vector2(this.x + this.link.x, this.y + this.floor.y + this.link.y),
